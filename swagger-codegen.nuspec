@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>swagger-codegen</id>
+    <version>2.2.2</version>
+    <packageSourceUrl>https://github.com/wing328/choco-swagger-codegen</packageSourceUrl>
+    <owners>wing328</owners>
+    <title>swagger-codegen (Install)</title>
+    <authors>Swagger Codegen Community</authors>
+    <projectUrl>https://github.com/swagger-api/swagger-codegen</projectUrl>
+    <iconUrl>https://avatars0.githubusercontent.com/u/7658037</iconUrl>
+    <copyright>SmartBear</copyright>
+    <licenseUrl>https://github.com/swagger-api/swagger-codegen/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/swagger-api/swagger-codegen</projectSourceUrl>
+    <docsUrl>https://github.com/swagger-api/swagger-codegen</docsUrl>
+    <bugTrackerUrl>https://github.com/swagger-api/swagger-codegen/issues/new</bugTrackerUrl>
+    <tags>swagger-codegen sdk rest api code generation</tags>
+    <summary>swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition</summary>
+    <description>swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
